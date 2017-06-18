@@ -1,7 +1,7 @@
 {% extends "index.html" %}
 
 {% block interest_form %}
-    <div class="row medium-8 large-7 columns">
+    <div class="row medium-8 large-6 columns">
         <div class="blog-post">
             <p>A unique and clean toilet when you visit a nice coffee shop or restaurant, how important is this for you?<br/>
                 Well we think… very.</p>
@@ -18,14 +18,13 @@
             <hr/>
 
             <p>Download the app, leave your email:</p>
-
-
         </div>
     </div>
 
 
-    <div class="row medium-8 large-7 columns">
-        <div class="column">
+    <div class="row">
+        <div class="medium-2 large-3 columns"></div>
+        <div class="medium-6 large-5 columns end">
             <form action="" method="post">
                 {% csrf_token %}
                 {{ form }}
