@@ -1,0 +1,33 @@
+{% load static compress %}
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Loo</title>
+    {% compress css %}
+        <link rel="stylesheet" type="text/x-scss" href="{% static 'scss/main.scss' %}">
+    {% endcompress %}
+</head>
+<body>
+
+<div class="callout large primary">
+    <div class="row column text-center">
+        <h1>Loo</h1>
+        <h2 class="subheader">Smart subheader</h2>
+    </div>
+</div>
+
+{% block interest_form %}{% endblock %}
+
+{% compress js %}
+<script src="{% static 'lib/jquery/dist/jquery.min.js' %}"></script>
+<script src="{% static 'lib/foundation-sites/dist/js/foundation.min.js' %}"></script>
+<script>
+    $(document).foundation();
+</script>
+{% endcompress %}
+</body>
+</html>
+

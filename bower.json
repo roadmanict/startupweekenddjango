@@ -1,0 +1,17 @@
+{
+  "name": "django",
+  "authors": [
+    "Geert Weggemans <geert.weggemans.cic@nl.ibm.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "^6.3.1",
+    "motion-ui": "^1.2.2",
+    "normalize-strings": "normalize#^1.1.0",
+    "normalize-scss": "normalize.scss#^7.0.0"
+  }
+}
