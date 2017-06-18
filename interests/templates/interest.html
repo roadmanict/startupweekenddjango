@@ -1,10 +1,12 @@
 {% extends "index.html" %}
 
+{% load static %}
+
 {% block interest_form %}
     <div class="row medium-8 large-6 columns">
         <div class="blog-post">
             <p><strong>We drink, we eat, we sleep and we relieve ourselves. Going to the toilet is one of our
-                fundamental needs.
+                fundamental needs.<br/>
                 So how can it be that there's still limited availability and poor quality of restrooms?</strong></p>
 
             <p>A unique and clean toilet when you visit a nice coffee shop or restaurant, how important is this for you?<br/>
@@ -28,20 +30,23 @@
             <p>Our team decided to change the whole idea and help everyone out of a shitty situation that is how our Loo
                 app found a way to share many intimate moments with you!</p>
 
+            <p><a href="https://xd.adobe.com/view/3fc9fc26-a6a5-45e9-8f94-4f7c5e4fa692/">Checkout our prototype app</a></p>
+
             <hr/>
 
             <p><strong>Download the app, leave your email:</strong></p>
-        </div>
-    </div>
-
-
-    <div class="row medium-8 large-6 columns">
-        <div class="blog-post">
             <form action="" method="post">
                 {% csrf_token %}
                 {{ form }}
                 <input class="button" type="submit" value="Submit"/>
             </form>
+
+            <h3>Quote's</h3>
+
+            <blockquote>
+                My friend was surprised to find the women's room empty of toilet paper in a place of this calibre
+                <cite>Reviewer on Trip Advisor</cite>
+            </blockquote>
         </div>
     </div>
 {% endblock %}
