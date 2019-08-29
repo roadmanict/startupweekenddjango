@@ -35,12 +35,12 @@
   },
   "license": "(MIT OR GPL-2.0)",
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.2.0",
     "chroma-sass": "^1.2.3",
-    "eslint": "^3.8.0",
-    "eyeglass": "^1.1.2",
-    "mocha": "^3.1.2",
-    "sassy-test": "^3.0.0",
+    "eslint": "^6.2.2",
+    "eyeglass": "^2.4.1",
+    "mocha": "^6.2.0",
+    "sassy-test": "^4.0.2",
     "typey": "^1.0.0"
   }
 }
