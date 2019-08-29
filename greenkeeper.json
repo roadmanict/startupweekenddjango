@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "startup/static/lib/motion-ui/package.json",
+        "startup/static/lib/normalize-scss/package.json",
+        "startup/static/lib/normalize-strings/package.json",
+        "startup/static/lib/what-input/package.json"
+      ]
+    }
+  }
+}
